@@ -41,7 +41,7 @@ export default function Hero() {
               <Icon name="arrowRight" className="w-4 h-4" />
             </a>
             <a
-              href="#marketplace"
+              href="#produtos"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-line px-7 py-3.5 text-sm font-semibold text-white hover:border-accent hover:text-accent-light transition-colors"
             >
               Comprar online

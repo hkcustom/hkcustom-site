@@ -51,7 +51,7 @@ export default function Header() {
         </nav>
 
         <a
-          href="#marketplace"
+          href="#produtos"
           className="hidden lg:inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-ink hover:bg-accent-light transition-colors"
         >
           Comprar online
@@ -80,7 +80,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="#marketplace"
+            href="#produtos"
             onClick={handleLinkClick}
             className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-semibold text-ink"
           >

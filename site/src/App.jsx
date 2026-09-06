@@ -7,7 +7,6 @@ import Installation from "./components/Installation";
 import Features from "./components/Features";
 import Compatibility from "./components/Compatibility";
 import FAQ from "./components/FAQ";
-import Marketplace from "./components/Marketplace";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { products } from "./data/products";
@@ -28,7 +27,6 @@ function App() {
         <Features />
         <Compatibility />
         <FAQ />
-        <Marketplace />
         <Contact />
       </main>
       <Footer />
