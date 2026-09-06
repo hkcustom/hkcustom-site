@@ -12,6 +12,8 @@ export const products = [
       "Iluminação automática dos faróis ao travar e destravar o veículo pelo alarme.",
     icon: "headlight",
     heroText: "Iluminação Automática dos Faróis",
+    mercadoLivreUrl:
+      "https://www.mercadolivre.com.br/modulo-para-acendimento-de-farois-hk-custom-20/up/MLBU731328616?pdp_filters=item_id:MLB1403386257",
     intro:
       "Desenvolvida para ativar a função Welcome Lights, a Interface Modelo 2.0 acende automaticamente os faróis ao travar e destravar o veículo pelo controle do alarme. Uma solução prática para quem busca mais estilo, comodidade e tecnologia, mantendo a originalidade do veículo.",
     highlights: [

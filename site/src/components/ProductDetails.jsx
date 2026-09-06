@@ -58,7 +58,7 @@ export default function ProductDetails({ product, reverse = false }) {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href={MARKETPLACE_MERCADOLIVRE_URL}
+                href={product.mercadoLivreUrl || MARKETPLACE_MERCADOLIVRE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink hover:bg-accent-light transition-colors"
@@ -67,7 +67,7 @@ export default function ProductDetails({ product, reverse = false }) {
                 <Icon name="externalLink" className="w-4 h-4" />
               </a>
               <a
-                href={MARKETPLACE_SHOPEE_URL}
+                href={product.shopeeUrl || MARKETPLACE_SHOPEE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-sm font-semibold text-white hover:border-accent hover:text-accent-light transition-colors"
