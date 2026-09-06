@@ -1,11 +1,6 @@
 import Icon from "./Icon";
 import SectionHeading from "./SectionHeading";
-import {
-  CONTACT,
-  MARKETPLACE_MERCADOLIVRE_URL,
-  MARKETPLACE_SHOPEE_URL,
-  whatsappLink,
-} from "../config/site";
+import { CONTACT, whatsappLink } from "../config/site";
 import useReveal from "../hooks/useReveal";
 
 const channels = [
@@ -19,18 +14,6 @@ const channels = [
     icon: "instagram",
     label: "Instagram",
     href: CONTACT.instagramUrl,
-    show: true,
-  },
-  {
-    icon: "cart",
-    label: "Mercado Livre",
-    href: MARKETPLACE_MERCADOLIVRE_URL,
-    show: true,
-  },
-  {
-    icon: "cart",
-    label: "Shopee",
-    href: MARKETPLACE_SHOPEE_URL,
     show: true,
   },
   {
