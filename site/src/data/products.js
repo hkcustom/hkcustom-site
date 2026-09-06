@@ -14,6 +14,7 @@ export const products = [
     heroText: "Iluminação Automática dos Faróis",
     mercadoLivreUrl:
       "https://www.mercadolivre.com.br/modulo-para-acendimento-de-farois-hk-custom-20/up/MLBU731328616?pdp_filters=item_id:MLB1403386257",
+    shopeeUrl: "https://shopee.com.br/product/339084939/23395179555/",
     intro:
       "Desenvolvida para ativar a função Welcome Lights, a Interface Modelo 2.0 acende automaticamente os faróis ao travar e destravar o veículo pelo controle do alarme. Uma solução prática para quem busca mais estilo, comodidade e tecnologia, mantendo a originalidade do veículo.",
     highlights: [
@@ -62,6 +63,8 @@ export const products = [
       "Sistema inteligente de proteção e controle para veículos equipados com alarme e suspensão a ar.",
     icon: "lock",
     heroText: "Bloqueador de Combustível e Controle de Suspensão a Ar",
+    mercadoLivreUrl:
+      "https://www.mercadolivre.com.br/up/MLBU2992264757?pdp_filters=item_id:MLB5275123830&matt_tool=38524122#origin=share&sid=share&wid=MLB5275123830&action=copy",
     intro:
       "O INTERBLOCK é um sistema desenvolvido para veículos equipados com alarme e suspensão a ar, seja de fábrica ou instalada posteriormente. O sistema integra funções de bloqueio, segurança e controle, proporcionando uma camada adicional de proteção e praticidade ao veículo.",
     highlights: [

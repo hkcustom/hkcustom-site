@@ -8,7 +8,7 @@ export const MARKETPLACE_MERCADOLIVRE_URL = "https://www.mercadolivre.com.br/pag
 export const MARKETPLACE_SHOPEE_URL = "https://shopee.com.br/hkcustom";
 
 export const CONTACT = {
-  whatsappNumber: "5511999999999", // apenas dígitos, com DDI + DDD
+  whatsappNumber: "5511939342449", // apenas dígitos, com DDI + DDD
   whatsappMessage: "Olá! Vim pelo site da HK Custom e gostaria de saber mais sobre os produtos.",
   instagramUrl: "https://www.instagram.com/hk.custom?stkn=MTVyZXV3Zmd2YWVhYw==",
   email: "", // preencher quando disponível
