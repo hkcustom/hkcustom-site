@@ -1,8 +1,9 @@
 import Icon from "./Icon";
+import { publicUrl } from "../lib/publicUrl";
 
 const images = {
-  "welcome-lights": "/product-welcome-lights.jpg",
-  interblock: "/product-interblock.jpg",
+  "welcome-lights": publicUrl("/product-welcome-lights.jpg"),
+  interblock: publicUrl("/product-interblock.jpg"),
 };
 
 export default function ProductCard({ product }) {

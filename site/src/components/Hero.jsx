@@ -1,5 +1,6 @@
 import Icon from "./Icon";
 import { SITE } from "../config/site";
+import { publicUrl } from "../lib/publicUrl";
 
 export default function Hero() {
   return (
@@ -52,7 +53,7 @@ export default function Hero() {
           <div className="relative rounded-3xl border border-line bg-graphite/70 p-3 glow-ring">
             <div className="absolute -inset-6 rounded-[2rem] border border-accent/20 animate-pulse-slow pointer-events-none" />
             <img
-              src="/hero-module.jpg"
+              src={publicUrl("/hero-module.jpg")}
               alt="Módulo eletrônico automotivo HK Custom com conectores originais"
               className="w-full h-full object-cover rounded-2xl aspect-square lg:aspect-[4/3]"
             />

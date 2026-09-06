@@ -1,5 +1,6 @@
 import Icon from "./Icon";
 import SectionHeading from "./SectionHeading";
+import { publicUrl } from "../lib/publicUrl";
 import useReveal from "../hooks/useReveal";
 
 export default function Compatibility() {
@@ -19,7 +20,7 @@ export default function Compatibility() {
 
         <div className="mt-12 rounded-3xl border border-line bg-graphite/60 p-3 sm:p-6 overflow-hidden">
           <img
-            src="/compatibility-brands.jpg"
+            src={publicUrl("/compatibility-brands.jpg")}
             alt="Compatibilidade com as principais marcas automotivas: Toyota, Honda, Nissan, Hyundai, Chevrolet, Volkswagen, Fiat, Jeep, Ford, Renault, Peugeot, Citroën, Mitsubishi, Kia, RAM, Mercedes-Benz, BMW, Audi, Volvo, Lexus, Land Rover, Mini, Porsche, Bentley, Suzuki, Subaru, Chery, JAC, Lifan, Troller, Rolls-Royce, Maserati e Tesla"
             className="w-full rounded-2xl"
           />

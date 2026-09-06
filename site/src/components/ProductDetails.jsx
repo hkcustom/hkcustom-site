@@ -1,5 +1,6 @@
 import Icon from "./Icon";
 import { MARKETPLACE_MERCADOLIVRE_URL, MARKETPLACE_SHOPEE_URL } from "../config/site";
+import { publicUrl } from "../lib/publicUrl";
 import useReveal from "../hooks/useReveal";
 
 function FeatureCard({ feature }) {
@@ -80,7 +81,9 @@ export default function ProductDetails({ product, reverse = false }) {
           <div className={reverse ? "lg:order-1" : ""}>
             <div className="rounded-3xl border border-line bg-graphite/70 p-3 glow-ring">
               <img
-                src={isWelcomeLights ? "/welcome-lights-before-after.jpg" : "/product-interblock.jpg"}
+                src={publicUrl(
+                  isWelcomeLights ? "/welcome-lights-before-after.jpg" : "/product-interblock.jpg"
+                )}
                 alt={`${product.name} — demonstração`}
                 className="w-full h-full object-cover rounded-2xl"
               />
