@@ -4,6 +4,7 @@ import About from "./components/About";
 import Products from "./components/Products";
 import ProductDetails from "./components/ProductDetails";
 import Installation from "./components/Installation";
+import Manuals from "./components/Manuals";
 import Features from "./components/Features";
 import Compatibility from "./components/Compatibility";
 import FAQ from "./components/FAQ";
@@ -24,6 +25,7 @@ function App() {
         <ProductDetails product={welcomeLights} />
         <ProductDetails product={interblock} reverse />
         <Installation />
+        <Manuals />
         <Features />
         <Compatibility />
         <FAQ />

@@ -1,8 +1,11 @@
 import Icon from "./Icon";
+import { getProductById } from "../data/products";
+import { publicUrl } from "../lib/publicUrl";
 import useReveal from "../hooks/useReveal";
 
 export default function Installation() {
   const [ref, visible] = useReveal();
+  const interblock = getProductById("interblock");
 
   return (
     <section className="relative py-24 lg:py-32 border-t border-line bg-graphite/20">
@@ -29,7 +32,9 @@ export default function Installation() {
 
         <div className="mt-10">
           <a
-            href="#contato"
+            href={publicUrl(interblock.manualUrl)}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-sm font-semibold text-white hover:border-accent hover:text-accent-light transition-colors"
           >
             <Icon name="book" className="w-4 h-4" />
