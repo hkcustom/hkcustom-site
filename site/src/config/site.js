@@ -10,7 +10,7 @@ export const MARKETPLACE_SHOPEE_URL = "https://shopee.com.br/hkcustom";
 export const CONTACT = {
   whatsappNumber: "5511999999999", // apenas dígitos, com DDI + DDD
   whatsappMessage: "Olá! Vim pelo site da HK Custom e gostaria de saber mais sobre os produtos.",
-  instagramUrl: "https://instagram.com/hkcustom",
+  instagramUrl: "https://www.instagram.com/hk.custom?stkn=MTVyZXV3Zmd2YWVhYw==",
   email: "", // preencher quando disponível
 };
 
