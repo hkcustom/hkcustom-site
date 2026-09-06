@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Paleta extraída do material visual HK Custom (imagem "central com IA" e logo) */
+  --color-ink: #05070a;
+  --color-graphite: #0e1116;
+  --color-graphite-light: #171b23;
+  --color-line: #262b35;
+
+  --color-fog: #aab2c0;
+  --color-mist: #6b7280;
+
+  --color-accent: #2f8fe8;
+  --color-accent-light: #6ec6ff;
+  --color-accent-dark: #1c5fa8;
+
+  --color-alert: #e5484d;
+  --color-alert-light: #ff7a7f;
+
+  --font-display: "Rajdhani", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: #f2f4f7;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #05070a;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-dark);
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color-accent-light), var(--color-accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grid-fade {
+  background-image:
+    linear-gradient(rgba(47, 143, 232, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 143, 232, 0.08) 1px, transparent 1px);
+  background-size: 44px 44px;
+  -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 30%, #000 30%, transparent 75%);
+  mask-image: radial-gradient(ellipse 60% 60% at 50% 30%, #000 30%, transparent 75%);
+}
+
+.glow-ring {
+  box-shadow: 0 0 0 1px rgba(47, 143, 232, 0.25), 0 0 60px -12px rgba(47, 143, 232, 0.55);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}

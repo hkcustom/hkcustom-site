@@ -1,0 +1,713 @@
+Crie um site institucional moderno, responsivo e profissional para a empresa **HK Custom**, especializada em módulos eletrônicos e acessórios automotivos.
+
+## 1. SOBRE A EMPRESA
+
+Nome: **HK Custom**
+
+A HK Custom atua no mercado desde **2019**, desenvolvendo e comercializando soluções eletrônicas para veículos, incluindo carros, motos e caminhões.
+
+A empresa possui como principal proposta oferecer produtos que agreguem **estilo, praticidade, segurança e tecnologia**, buscando preservar a originalidade do veículo e proporcionar uma instalação simples e funcional.
+
+O site terá caráter **institucional e comercial**, porém **NÃO deverá possuir checkout ou venda direta**.
+
+O objetivo principal é apresentar os produtos, explicar suas funcionalidades e direcionar o cliente para os canais de venda externos, principalmente:
+
+* Mercado Livre
+* Shopee
+
+Criar botões de CTA como:
+
+**"Comprar no Mercado Livre"**
+**"Comprar na Shopee"**
+**"Ver detalhes do produto"**
+
+Os links das plataformas deverão ficar preparados como variáveis/configurações facilmente editáveis no código.
+
+---
+
+# 2. OBJETIVO DO SITE
+
+O site deve:
+
+* Apresentar a HK Custom;
+* Demonstrar profissionalismo e credibilidade;
+* Apresentar os dois principais produtos;
+* Explicar claramente as funcionalidades;
+* Destacar os diferenciais dos produtos;
+* Apresentar compatibilidade;
+* Orientar o cliente sobre instalação;
+* Direcionar o visitante para Mercado Livre e Shopee;
+* Facilitar contato com a empresa;
+* Ter excelente experiência em dispositivos móveis;
+* Possuir visual relacionado ao universo automotivo e tecnologia.
+
+O site deve transmitir uma identidade visual de:
+
+**Automotivo + Tecnologia + Performance + Segurança + Modernidade**
+
+---
+
+# 3. ESTRUTURA DO SITE
+
+Criar uma página institucional com navegação por seções:
+
+1. Home
+2. Sobre a HK Custom
+3. Produtos
+4. Detalhes dos produtos
+5. Diferenciais
+6. Compatibilidade
+7. FAQ
+8. Contato
+9. Rodapé
+
+Utilizar navegação suave entre as seções.
+
+---
+
+# 4. HERO / BANNER PRINCIPAL
+
+Criar uma seção inicial impactante.
+
+Título sugerido:
+
+**TECNOLOGIA QUE TRANSFORMA A EXPERIÊNCIA COM SEU VEÍCULO**
+
+Subtítulo:
+
+**Soluções inteligentes para iluminação, segurança e controle automotivo.**
+
+Texto complementar:
+
+**Desde 2019 desenvolvendo módulos eletrônicos para carros, motos e caminhões.**
+
+Criar dois botões:
+
+**CONHEÇA NOSSOS PRODUTOS**
+
+**COMPRAR ONLINE**
+
+Adicionar elemento visual relacionado a veículo, iluminação automotiva, eletrônica ou tecnologia.
+
+O design deve ser sofisticado, com aparência premium e tecnológica.
+
+---
+
+# 5. SEÇÃO SOBRE A HK CUSTOM
+
+Título:
+
+**HK Custom**
+
+Texto:
+
+"A HK Custom está no mercado desde 2019, desenvolvendo soluções eletrônicas voltadas para o mercado automotivo.
+
+Nossa proposta é unir tecnologia, praticidade e funcionalidade em produtos desenvolvidos para facilitar a utilização e aumentar a segurança dos veículos.
+
+Nossos módulos são projetados para aplicações em carros, motos e caminhões, oferecendo soluções inteligentes para iluminação, bloqueio e controle de sistemas automotivos."
+
+Criar cards com os diferenciais:
+
+* Desde 2019
+* Tecnologia automotiva
+* Instalação prática
+* Soluções inteligentes
+* Compatibilidade com diversos veículos
+* Venda através de marketplaces
+
+---
+
+# 6. SEÇÃO PRODUTOS
+
+Criar uma seção chamada:
+
+**NOSSAS SOLUÇÕES**
+
+Apresentar dois cards principais.
+
+## PRODUTO 01
+
+### Interface Welcome Lights Modelo 2.0
+
+Categoria:
+
+**Módulo de Acendimento Automático dos Faróis**
+
+Descrição curta:
+
+**Iluminação automática dos faróis ao travar e destravar o veículo pelo alarme.**
+
+Destaques:
+
+* Função Welcome Lights;
+* Acendimento automático dos faróis;
+* 4 opções de tempo;
+* Instalação simplificada;
+* Preserva a originalidade do veículo;
+* Sem cortes ou adaptações invasivas;
+* Compatível com diversos veículos e alarmes.
+
+Botão:
+
+**VER PRODUTO**
+
+---
+
+## PRODUTO 02
+
+### INTERBLOCK
+
+Categoria:
+
+**Bloqueador de Combustível + Controle de Suspensão a Ar**
+
+Descrição curta:
+
+**Sistema inteligente de proteção e controle para veículos equipados com alarme e suspensão a ar.**
+
+Destaques:
+
+* Bloqueio da bomba de combustível;
+* Bloqueio da suspensão a ar;
+* Saída auxiliar para controle de altura;
+* Função manobrista;
+* Modo de segurança "assalto".
+
+Botão:
+
+**VER PRODUTO**
+
+---
+
+# 7. PÁGINA/SEÇÃO DO PRODUTO 01
+
+Criar uma área detalhada para:
+
+## INTERFACE WELCOME LIGHTS MODELO 2.0
+
+Título:
+
+**Iluminação Automática dos Faróis**
+
+Texto:
+
+"Desenvolvida para ativar a função Welcome Lights, a Interface Modelo 2.0 acende automaticamente os faróis ao travar e destravar o veículo pelo controle do alarme.
+
+Uma solução prática para quem busca mais estilo, comodidade e tecnologia, mantendo a originalidade do veículo."
+
+### FUNCIONALIDADES
+
+Criar cards com ícones:
+
+**Acendimento automático**
+
+Os faróis são acionados automaticamente conforme o comando de travamento ou destravamento do veículo.
+
+**4 opções de tempo**
+
+Permite selecionar o tempo de funcionamento:
+
+* 15 segundos
+* 25 segundos
+* 40 segundos
+* 60 segundos
+
+**Instalação simplificada**
+
+Produto acompanhado de manual passo a passo.
+
+**Preserva a originalidade**
+
+Projetado para evitar cortes ou adaptações invasivas na instalação.
+
+### COMPATIBILIDADE
+
+Texto:
+
+**Compatível com a maioria dos veículos e alarmes disponíveis no mercado.**
+
+Adicionar alerta visual:
+
+**Atenção:** alguns veículos equipados com rede CAN podem apresentar incompatibilidade. Consulte a compatibilidade antes da compra.
+
+Adicionar botões:
+
+**COMPRAR NO MERCADO LIVRE**
+
+**COMPRAR NA SHOPEE**
+
+---
+
+# 8. PÁGINA/SEÇÃO DO PRODUTO 02
+
+## INTERBLOCK
+
+### Bloqueador de Combustível e Controle de Suspensão a Ar
+
+Texto:
+
+"O INTERBLOCK é um sistema desenvolvido para veículos equipados com alarme e suspensão a ar, seja de fábrica ou instalada posteriormente.
+
+O sistema integra funções de bloqueio, segurança e controle, proporcionando uma camada adicional de proteção e praticidade ao veículo."
+
+---
+
+# 9. FUNCIONALIDADES DO INTERBLOCK
+
+Apresentar cada funcionalidade em um card visual.
+
+## 01 — BLOQUEIO DA BOMBA DE COMBUSTÍVEL
+
+O bloqueio é ativado automaticamente dois minutos após a abertura e fechamento da porta do motorista, caso o botão master (segredo) não seja pressionado.
+
+O LED passa a piscar na cor vermelha, indicando o processo de bloqueio.
+
+Para desbloquear:
+
+* Fechar a porta;
+* Ligar a ignição;
+* Pressionar o botão master.
+
+O LED passa para verde contínuo, indicando o desbloqueio.
+
+---
+
+## 02 — BLOQUEIO DA SUSPENSÃO A AR
+
+Quando o alarme do veículo é acionado, a suspensão a ar é desativada automaticamente.
+
+O sistema pode fazer com que o veículo baixe completamente, dificultando sua movimentação.
+
+Para restaurar o funcionamento:
+
+* Ligar a ignição;
+* Pressionar o botão master.
+
+---
+
+## 03 — SAÍDA AUXILIAR PARA CONTROLE DA SUSPENSÃO
+
+Permite utilizar o comando do alarme para controlar a altura do veículo.
+
+Conforme a programação, o veículo pode ser automaticamente:
+
+* Rebaixado ao travar;
+* Elevado ao destravar.
+
+---
+
+## 04 — FUNÇÃO MANOBRISTA
+
+Permite desativar temporariamente as proteções do sistema para que terceiros possam movimentar o veículo.
+
+Para ativar:
+
+* Porta fechada;
+* Ignição ligada;
+* Pressionar o botão master durante 10 segundos.
+
+Essa função permite que o veículo seja entregue a um manobrista sem necessidade de informar a localização do botão master.
+
+---
+
+## 05 — MODO DE SEGURANÇA "ASSALTO"
+
+Função desenvolvida para aumentar a proteção do veículo em uma situação de abordagem durante a condução.
+
+Quando uma porta é aberta após o veículo estar em movimento:
+
+* O sistema inicia o processo de segurança;
+* Após 2 minutos, a bomba de combustível é bloqueada;
+* Após mais 1 minuto, a suspensão a ar é desativada.
+
+Apresentar essa funcionalidade de maneira informativa e responsável, evitando linguagem que prometa proteção absoluta contra furtos ou roubos.
+
+---
+
+# 10. INSTALAÇÃO
+
+Criar uma seção:
+
+## INSTALAÇÃO
+
+Texto:
+
+"O INTERBLOCK deve ser corretamente conectado aos componentes elétricos do veículo conforme as orientações presentes no manual de instalação."
+
+Criar um aviso:
+
+**A instalação deve ser realizada por profissional qualificado, seguindo corretamente o manual e os procedimentos técnicos aplicáveis ao veículo.**
+
+Não disponibilizar no site instruções elétricas detalhadas, pinagem, esquemas de ligação ou procedimentos que possam resultar em instalação incorreta.
+
+Botão:
+
+**CONSULTE O MANUAL DE INSTALAÇÃO**
+
+---
+
+# 11. DIFERENCIAIS
+
+Criar uma seção visual com 6 diferenciais:
+
+### TECNOLOGIA
+
+Soluções eletrônicas desenvolvidas para aplicações automotivas.
+
+### PRATICIDADE
+
+Produtos pensados para facilitar a experiência do usuário.
+
+### SEGURANÇA
+
+Funções voltadas para aumentar a proteção e o controle do veículo.
+
+### COMPATIBILIDADE
+
+Aplicações em diferentes veículos e configurações.
+
+### INSTALAÇÃO
+
+Produtos acompanhados de orientações para instalação.
+
+### EXPERIÊNCIA
+
+HK Custom atuando no mercado desde 2019.
+
+---
+
+# 12. FAQ
+
+Criar perguntas expansíveis (accordion).
+
+Perguntas:
+
+**Os produtos são vendidos diretamente pelo site?**
+
+Não. O site apresenta os produtos e direciona o cliente para os canais oficiais de venda no Mercado Livre e Shopee.
+
+**O Welcome Lights é compatível com qualquer veículo?**
+
+É compatível com a maioria dos veículos e alarmes do mercado, porém alguns modelos com rede CAN podem apresentar incompatibilidade. Consulte antes da compra.
+
+**O produto acompanha manual?**
+
+Sim. A Interface Welcome Lights Modelo 2.0 acompanha manual passo a passo.
+
+**O INTERBLOCK funciona em qualquer suspensão a ar?**
+
+O sistema é destinado a veículos equipados com alarme e suspensão a ar, mas a compatibilidade deve ser verificada antes da instalação.
+
+**Posso instalar o produto sozinho?**
+
+A instalação deve seguir rigorosamente o manual. Recomenda-se que seja realizada por profissional qualificado.
+
+**Onde posso comprar os produtos?**
+
+Os produtos estarão disponíveis através dos canais oficiais da HK Custom no Mercado Livre e Shopee.
+
+---
+
+# 13. SEÇÃO "ONDE COMPRAR"
+
+Criar uma seção de destaque:
+
+## COMPRE PELOS NOSSOS CANAIS OFICIAIS
+
+Texto:
+
+"Escolha seu produto e compre com segurança através dos nossos canais oficiais."
+
+Criar dois cards:
+
+### MERCADO LIVRE
+
+Botão:
+
+**COMPRAR NO MERCADO LIVRE**
+
+### SHOPEE
+
+Botão:
+
+**COMPRAR NA SHOPEE**
+
+Os links devem ser configurados no código como:
+
+MARKETPLACE_MERCADOLIVRE_URL
+
+MARKETPLACE_SHOPEE_URL
+
+Deixar claramente identificado no código onde esses links devem ser alterados.
+
+---
+
+# 14. CONTATO
+
+Criar seção:
+
+## FALE COM A HK CUSTOM
+
+Adicionar:
+
+* WhatsApp
+* Instagram
+* Mercado Livre
+* Shopee
+* E-mail, caso seja posteriormente informado
+
+Os dados devem ficar organizados em variáveis/configuração para fácil alteração.
+
+Criar botão:
+
+**FALAR PELO WHATSAPP**
+
+---
+
+# 15. RODAPÉ
+
+Rodapé contendo:
+
+**HK Custom**
+
+"Tecnologia e soluções inteligentes para seu veículo."
+
+Informar:
+
+**© 2026 HK Custom — Todos os direitos reservados.**
+
+Links:
+
+* Início
+* Produtos
+* Sobre
+* FAQ
+* Contato
+* Mercado Livre
+* Shopee
+* Instagram
+* Política de Privacidade
+* Termos de Uso
+
+---
+
+# 16. IDENTIDADE VISUAL
+
+Criar identidade visual com estética:
+
+* Automotiva;
+* Tecnológica;
+* Moderna;
+* Premium;
+* Masculina;
+* Minimalista;
+* Industrial.
+
+Sugestão de paleta:
+
+* Preto predominante;
+* Cinza grafite;
+* Branco;
+* Cor de destaque em vermelho ou azul elétrico.
+
+Utilizar bastante espaço negativo e contraste.
+
+Evitar aparência de loja genérica.
+
+A página deve parecer uma **marca automotiva profissional**, e não apenas uma página de anúncio de produtos.
+
+---
+
+# 17. ELEMENTOS VISUAIS
+
+Utilizar:
+
+* Ícones relacionados a automóveis;
+* Faróis;
+* Controle remoto;
+* Eletrônica;
+* Segurança;
+* Suspensão;
+* Combustível;
+* Cadeado;
+* Tecnologia.
+
+Adicionar microanimações discretas:
+
+* Hover nos cards;
+* Transições suaves;
+* Animação de entrada das seções;
+* Efeitos sutis nos botões;
+* Scroll suave.
+
+Não exagerar nas animações.
+
+---
+
+# 18. RESPONSIVIDADE
+
+O site deve funcionar perfeitamente em:
+
+* Desktop;
+* Notebook;
+* Tablet;
+* Smartphone.
+
+Priorizar experiência mobile.
+
+Os botões de compra devem ser facilmente acessíveis em celulares.
+
+---
+
+# 19. SEO
+
+Implementar SEO básico:
+
+Title:
+
+**HK Custom | Tecnologia e Soluções Automotivas**
+
+Meta description:
+
+**HK Custom — módulos automotivos para iluminação, segurança e controle de veículos. Conheça nossas soluções e compre através do Mercado Livre e Shopee.**
+
+Criar estrutura correta de:
+
+* H1
+* H2
+* H3
+* Alt text nas imagens
+* URLs amigáveis
+* Open Graph
+* Favicon
+
+---
+
+# 20. ESTRUTURA TÉCNICA
+
+Utilizar uma arquitetura moderna e organizada.
+
+Preferência:
+
+* React
+* Vite
+* Tailwind CSS
+* Componentização
+* Código limpo
+* Responsividade
+* SEO
+* Boa performance
+
+Separar os componentes em:
+
+* Header
+* Hero
+* About
+* Products
+* ProductCard
+* ProductDetails
+* Features
+* Compatibility
+* FAQ
+* Marketplace
+* Contact
+* Footer
+
+Criar uma estrutura de dados para os produtos, permitindo adicionar novos produtos futuramente sem precisar reconstruir toda a página.
+
+---
+
+# 21. IMPORTANTE — NÃO CRIAR CHECKOUT
+
+O site NÃO deverá:
+
+* Receber pagamento;
+* Criar carrinho;
+* Processar pedidos;
+* Solicitar dados de cartão;
+* Fazer checkout.
+
+O objetivo é:
+
+**APRESENTAÇÃO → CONFIANÇA → PRODUTO → CTA → MERCADO LIVRE / SHOPEE**
+
+---
+
+# 22. CTA PRINCIPAL
+
+Ao longo do site, utilizar chamadas como:
+
+**Conheça nossas soluções**
+
+**Encontre o módulo ideal para seu veículo**
+
+**Compre pelos nossos canais oficiais**
+
+**Comprar no Mercado Livre**
+
+**Comprar na Shopee**
+
+**Fale com a HK Custom**
+
+---
+
+# 23. EXPERIÊNCIA DO USUÁRIO
+
+O visitante deve entender em poucos segundos:
+
+1. O que é a HK Custom;
+2. O que a empresa vende;
+3. Qual problema cada produto resolve;
+4. Para qual tipo de veículo serve;
+5. Quais são as principais funcionalidades;
+6. Como comprar.
+
+O fluxo ideal deve ser:
+
+**HOME → PRODUTOS → DETALHES → COMPATIBILIDADE → COMPRAR**
+
+---
+
+# 24. CONTEÚDO COMERCIAL
+
+Evitar promessas absolutas como:
+
+"Proteção 100% contra roubo."
+
+Utilizar linguagem comercial responsável, como:
+
+"Camada adicional de proteção."
+
+"Contribui para aumentar a segurança do veículo."
+
+"Desenvolvido para dificultar movimentações não autorizadas."
+
+---
+
+# 25. RESULTADO ESPERADO
+
+Entregar um site visualmente impactante, profissional e pronto para produção, com aparência de uma empresa automotiva/tecnológica consolidada.
+
+O resultado deve passar a sensação de:
+
+**"HK Custom é uma marca séria, especializada em tecnologia automotiva."**
+
+Priorizar:
+
+**Design premium + clareza comercial + responsividade + velocidade + conversão para Mercado Livre e Shopee.**
+
+Ao finalizar, verificar:
+
+* Responsividade;
+* Links dos marketplaces;
+* Navegação;
+* Botões;
+* FAQ;
+* SEO;
+* Acessibilidade;
+* Performance;
+* Ausência de erros no console;
+* Organização do código.
+
+Deixar todos os links externos, WhatsApp, Instagram e informações de contato centralizados em um único arquivo/configuração para facilitar futuras alterações.
