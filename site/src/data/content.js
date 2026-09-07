@@ -41,6 +41,12 @@ export const differentials = [
 ];
 
 export const vehicleVideos = [
+  {
+    id: "apresentacao-interblock",
+    label: "Apresentação INTERBLOCK",
+    src: "/videos/apresentacao-interblock.mp4",
+    icon: "lock",
+  },
   { id: "gol-branco", label: "Gol", src: "/videos/gol-branco.mp4" },
   { id: "honda-city", label: "Honda City", src: "/videos/honda-city.mp4" },
   { id: "montana", label: "Montana", src: "/videos/montana.mp4" },

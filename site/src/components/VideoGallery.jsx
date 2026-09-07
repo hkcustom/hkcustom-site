@@ -38,7 +38,7 @@ export default function VideoGallery() {
                 </video>
               </div>
               <div className="flex items-center gap-2 px-5 py-4">
-                <Icon name="car" className="w-4 h-4 text-accent-light shrink-0" />
+                <Icon name={video.icon || "car"} className="w-4 h-4 text-accent-light shrink-0" />
                 <p className="text-sm font-medium text-white">{video.label}</p>
               </div>
             </div>
