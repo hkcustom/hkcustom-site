@@ -40,6 +40,16 @@ export const differentials = [
   },
 ];
 
+export const vehicleVideos = [
+  { id: "gol-branco", label: "Gol", src: "/videos/gol-branco.mp4" },
+  { id: "honda-city", label: "Honda City", src: "/videos/honda-city.mp4" },
+  { id: "montana", label: "Montana", src: "/videos/montana.mp4" },
+  { id: "palio-sporting", label: "Palio Sporting", src: "/videos/palio-sporting.mp4" },
+  { id: "golf-r", label: "Golf R", src: "/videos/golf-r.mp4" },
+  { id: "golf-r-2", label: "Golf R", src: "/videos/golf-r-2.mp4" },
+  { id: "voyage", label: "Voyage", src: "/videos/voyage.mp4" },
+];
+
 export const faqItems = [
   {
     question: "Os produtos são vendidos diretamente pelo site?",

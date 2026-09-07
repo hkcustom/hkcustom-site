@@ -7,6 +7,7 @@ import Installation from "./components/Installation";
 import Manuals from "./components/Manuals";
 import Features from "./components/Features";
 import Compatibility from "./components/Compatibility";
+import VideoGallery from "./components/VideoGallery";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -28,6 +29,7 @@ function App() {
         <Manuals />
         <Features />
         <Compatibility />
+        <VideoGallery />
         <FAQ />
         <Contact />
       </main>
