@@ -52,11 +52,16 @@ export default function Hero() {
         <div className="reveal relative" style={{ animationDelay: "0.15s" }}>
           <div className="relative rounded-3xl border border-line bg-graphite/70 p-3 glow-ring">
             <div className="absolute -inset-6 rounded-[2rem] border border-accent/20 animate-pulse-slow pointer-events-none" />
-            <img
-              src={publicUrl("/hero-module.jpg")}
-              alt="Módulo eletrônico automotivo HK Custom com conectores originais"
+            <video
+              src={publicUrl("/hero-video.mp4")}
+              autoPlay
+              loop
+              muted
+              playsInline
               className="w-full h-full object-cover rounded-2xl aspect-square lg:aspect-[4/3]"
-            />
+            >
+              Seu navegador não suporta vídeo em HTML5.
+            </video>
           </div>
 
           <div className="absolute -bottom-6 -left-6 hidden sm:flex items-center gap-3 rounded-2xl border border-line bg-graphite px-5 py-4 shadow-xl shadow-black/40">
