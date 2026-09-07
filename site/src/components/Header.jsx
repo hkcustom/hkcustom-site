@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Icon from "./Icon";
 import { SITE } from "../config/site";
-import { publicUrl } from "../lib/publicUrl";
 
 const navLinks = [
   { href: "#home", label: "Início" },
@@ -35,12 +34,9 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 lg:px-8 flex items-center justify-between h-16 lg:h-20">
-        <a href="#home" className="flex items-center gap-2.5">
-          <img src={publicUrl("/logo-mark.png")} alt="HK Custom" className="h-9 w-auto" />
-          <span className="font-display font-bold text-xl tracking-widest flex items-center gap-1">
-            <span className="text-accent-light">HK</span>
-            <span className="text-white">CUSTOM</span>
-          </span>
+        <a href="#home" className="font-display font-bold text-xl tracking-widest flex items-center gap-1">
+          <span className="text-accent-light">HK</span>
+          <span className="text-white">CUSTOM</span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">
