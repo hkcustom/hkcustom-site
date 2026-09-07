@@ -34,7 +34,7 @@ function FeatureCard({ feature }) {
 
 export default function ProductDetails({ product, reverse = false }) {
   const [ref, visible] = useReveal();
-  const isWelcomeLights = product.id === "welcome-lights";
+  const images = product.detailImages || [];
 
   return (
     <section
@@ -79,14 +79,21 @@ export default function ProductDetails({ product, reverse = false }) {
           </div>
 
           <div className={reverse ? "lg:order-1" : ""}>
-            <div className="rounded-3xl border border-line bg-graphite/70 p-3 glow-ring">
-              <img
-                src={publicUrl(
-                  isWelcomeLights ? "/welcome-lights-before-after.jpg" : "/product-interblock.jpg"
-                )}
-                alt={`${product.name} — demonstração`}
-                className="w-full h-full object-cover rounded-2xl"
-              />
+            <div
+              className={`grid gap-3 rounded-3xl border border-line bg-graphite/70 p-3 glow-ring ${
+                images.length > 1 ? "grid-cols-2" : "grid-cols-1"
+              }`}
+            >
+              {images.map((image, index) => (
+                <img
+                  key={image}
+                  src={publicUrl(image)}
+                  alt={`${product.name} — demonstração ${index + 1}`}
+                  className={`w-full object-cover rounded-2xl ${
+                    images.length > 1 ? "aspect-[3/4]" : "aspect-square lg:aspect-[4/3]"
+                  }`}
+                />
+              ))}
             </div>
           </div>
         </div>
