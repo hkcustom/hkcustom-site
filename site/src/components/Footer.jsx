@@ -14,7 +14,7 @@ const footerLinks = [
 export default function Footer() {
   return (
     <footer className="border-t border-line bg-ink">
-      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-14 grid gap-10 sm:grid-cols-2">
         <div>
           <p className="font-display font-bold text-xl tracking-widest">
             <span className="text-accent-light">HK</span> CUSTOM
@@ -37,16 +37,6 @@ export default function Footer() {
               {link.label}
             </a>
           ))}
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <p className="text-xs font-semibold tracking-widest uppercase text-fog mb-1">Legal</p>
-          <a href="#" className="text-sm text-mist hover:text-accent-light transition-colors w-fit">
-            Política de Privacidade
-          </a>
-          <a href="#" className="text-sm text-mist hover:text-accent-light transition-colors w-fit">
-            Termos de Uso
-          </a>
         </div>
       </div>
 
