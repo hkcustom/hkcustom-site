@@ -67,6 +67,7 @@ export const products = [
     heroText: "Bloqueador de Combustível e Controle de Suspensão a Ar",
     mercadoLivreUrl:
       "https://www.mercadolivre.com.br/up/MLBU2992264757?pdp_filters=item_id:MLB5275123830&matt_tool=38524122#origin=share&sid=share&wid=MLB5275123830&action=copy",
+    shopeeUrl: "https://shopee.com.br/product/339084939/58217753700/",
     manualUrl: "/manuals/interblock-manual.pdf",
     detailImages: ["/product-interblock.jpg", "/interblock-hkcustom.png"],
     intro:
